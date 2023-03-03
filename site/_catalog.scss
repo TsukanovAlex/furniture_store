@@ -1,0 +1,60 @@
+.top_catalog {
+    height: 400px;
+    background-image: url(./img/background/catalog_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.title_catalog {
+    margin-top: 127px;
+}
+
+.menu_catalog {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 9px;
+    padding-top: 64px;
+}
+
+.breadcrumbs_catalog {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.breadcrumbs_title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.breadcrumbs:not(:last-child)::after {
+    content: '/';
+    padding-left: 8px;
+    padding-right: 8px;
+    color: #000;
+}
+
+.select_sorting {
+    width: 288px;
+    height: 41px;
+    border: 1px solid #C4C4C4;
+    border-radius: 20px;
+    padding-left: 14px;
+    outline: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+
+    background-image: url(./img/Polygon\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: 246px;
+    background-size: 16px;
+    appearance: none;
+}
